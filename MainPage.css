@@ -1,0 +1,191 @@
+/*РћР±РЅСѓР»РµРЅРёРµ*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*----------------------------------------------------*/
+
+
+.content {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+
+}
+
+.img {
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(to bottom, #282828, #28282800), url("https://s3-alpha-sig.figma.com/img/11ca/e759/b880c59218fd5cab502c29c6f074870a?Expires=1668988800&Signature=UWA1xL1vzo7JCavZyxPJzi4fTpG1AqlQ6RzB5wqSqb6mTk2YrGxhfD7JqZaRLMKjFveCGbcWj0zn19kZYomEcm9Xo63-KvI5qaRDkDb4XUedS0zuwx1hovZ0wS6axea~SC~NMltzV~xoe4zKp6rx-gitYZZar~Vc3GjYjmPF4AlRG~4odtAcYo4q2JsGUuOFHXIULJrQDiNGbz-CHpiej9yxvC5Qnq7oO2WcB4hi-8fSHgDU3poLAtRNkhOMULfsZjWgETGjTfWZ5wzMnBeR4sLzr7~vURdEYlHbWg0jRp-8FCt-r65J2q2Y9KsWnjDGCRloQR7DmO1NpMS2rqSLhw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1110px;
+    color: white;
+
+
+}
+
+.addresses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    border-color: white;
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Katalog {
+    border-right: 1px solid black;
+    padding-right: 107px;
+    padding-left: 106px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    border-color: white;
+}
+
+.Dostavka {
+    border-right: 1px solid black;
+    padding-right: 101px;
+    padding-left: 116px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    border-color: white;
+}
+
+.Kollekcii {
+    border-right: 1px solid black;
+
+    padding-right: 94px;
+    padding-left: 109px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    border-color: white;
+
+}
+
+.Kontakti {
+    padding-right: 100px;
+    padding-left: 101px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    border-color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    min-height: 633px;
+    /*center buttons*/
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+button {
+    background-color: #998431;
+    color: white;
+    border: none;
+    width: 203px;
+    height: 50px;
+    font-size: 16px;
+}
+
