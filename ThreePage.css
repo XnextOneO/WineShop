@@ -1,8 +1,191 @@
+/*РћР±РЅСѓР»РµРЅРёРµ*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*----------------------------------------------------*/
 .img3 {
 
     width: 100%;
-    height: 856px;
+    height: 1038px;
     background-color: #E6E3C4;
     position: absolute;
     top: 1756px;
+}
+
+.content3 {
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    width: 1110px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 800px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.leftContent {
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newKollection {
+    padding-bottom: 30px;
+}
+
+.march1980 {
+    padding-bottom: 30px;
+    font-size: 36px;
+}
+
+.line3page {
+    width: 160px;
+    border-top: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.abzac3page {
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 445px;
+    border: 2px solid #E6E3C4;
+    margin-bottom: 30px;
+}
+
+TD {
+    padding: 20px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+    text-align: left;
+}
+
+.abzac3page2 {
+    text-align: left;
+    padding-bottom: 45px;
+}
+
+.podrobnee {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 32px;
+
+}
+
+/*****************************************/
+.rightContent {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 125px;
+}
+
+.wineBokal {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.imgWineBokal {
+    height: 500px;
+    width: 540px;
+}
+
+.butilkiBlock {
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.imgLeftButilka {
+    width: 255px;
+    height: 228px;
+}
+
+
+.imgrightButilka {
+    width: 255px;
+    height: 228px;
+
 }
