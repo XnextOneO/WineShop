@@ -146,6 +146,9 @@ TD {
     font-size: 16px;
     text-align: center;
     padding: 5px 32px;
+}
+.podrobnee:hover {
+    background-color: #331807;
 
 }
 

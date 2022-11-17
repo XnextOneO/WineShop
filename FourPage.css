@@ -1,0 +1,190 @@
+/*РћР±РЅСѓР»РµРЅРёРµ*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*----------------------------------------------------*/
+.FourPage {
+    width: 100%;
+    height: 867px;
+    background-color: #282828;
+    position: absolute;
+    top: 2794px;
+    padding-bottom: 50px;
+}
+
+.content4 {
+
+    border: 2px solid white;
+    width: 1100px;
+    height: 538px;
+    margin: 0 auto;
+    margin-top: 170px;
+    position: relative;
+
+
+}
+
+
+.vinograd img {
+    position: absolute;
+    top: -69px;
+    left: -30px;
+
+
+}
+
+.bochka img {
+    position: absolute;
+    top: -65px;
+    right: -53px;
+
+}
+
+.zapisDegustation img {
+    position: absolute;
+    top: -29px;
+    left: 310px;
+}
+
+.line123 {
+    width: 118px;
+    border-top: 1px solid white;
+    margin-top: 65px;
+    margin-left: 496px;
+}
+
+.textDegustation {
+    width: 539px;
+    height: 72px;
+    margin-top: 40px;
+    margin-left: 286px;
+
+
+}
+
+.textDegustation p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.name {
+    width: 255px;
+}
+
+.mobile {
+    width: 255px;
+}
+
+.coord input {
+    width: 540px;
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+    margin-left: 286px;
+    position: relative;
+}
+
+input {
+    background-color: #282828;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 255px;
+}
+.form {
+    display: flex;
+    width: 541px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 300px;
+    gap: 20px;
+}
+
+input.butik {
+    width: 540px;
+    margin-top: 40px;
+}
+
+form button {
+    width: 541px;
+    background-color: #282828;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+
+form button:hover {
+    color: #d3b84b;
+
+}
